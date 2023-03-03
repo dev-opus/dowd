@@ -1,0 +1,5 @@
+[ hiatus@debian:dowd$ ] docker ps -as
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+[ hiatus@debian:dowd$ ] docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[ hiatus@debian:dowd$ ] 
