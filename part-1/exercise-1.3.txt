@@ -1,0 +1,19 @@
+[ hiatus@debian:dowd$ ] docker run -d devopsdockeruh/simple-web-service:ubuntu 
+60d39f6115b323c55311474d170d8e1975f210ecce68e1cb78e703bea1e2aeb3
+
+
+[ hiatus@debian:dowd$ ] docker exec -it mystifying_kepler bash
+root@60d39f6115b3:/usr/src/app# ls
+server  text.log
+root@60d39f6115b3:/usr/src/app# tail ./text.log 
+2023-03-03 15:20:13 +0000 UTC
+2023-03-03 15:20:15 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-03 15:20:17 +0000 UTC
+2023-03-03 15:20:19 +0000 UTC
+2023-03-03 15:20:21 +0000 UTC
+2023-03-03 15:20:23 +0000 UTC
+2023-03-03 15:20:25 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-03 15:20:27 +0000 UTC
+root@60d39f6115b3:/usr/src/app# 
