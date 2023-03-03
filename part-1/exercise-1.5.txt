@@ -1,0 +1,4 @@
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+ubuntu                              latest    74f2314a03de   2 days ago      77.8MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   23 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   23 months ago   15.7MB
