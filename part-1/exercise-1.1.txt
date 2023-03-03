@@ -1,0 +1,6 @@
+[ hiatus@debian:dowd$ ] docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+596a8ec26ade   nginx     "/docker-entrypoint.…"   53 seconds ago       Exited (0) 16 seconds ago             funny_dhawan
+541d244612a4   nginx     "/docker-entrypoint.…"   57 seconds ago       Exited (0) 16 seconds ago             fervent_brahmagupta
+72882926eae2   nginx     "/docker-entrypoint.…"   About a minute ago   Up 58 seconds               80/tcp    heuristic_robinson
+[ hiatus@debian:dowd$ ] 
