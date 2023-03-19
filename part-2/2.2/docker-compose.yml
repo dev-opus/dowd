@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  web-service:
+    image: devopsdockeruh/simple-web-service:alpine
+    command: ['sh', './server', 'server']
+    ports:
+      - 8080:8080
+    container_name: web-service
